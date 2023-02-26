@@ -134,6 +134,18 @@ p {
     letter-spacing: 0.02em;
     color: var(--secondary-color)
 }
+.contact-top-mail {
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color)
+}
+.contact-top-mail:hover .icon-email {
+    fill: #2196F3;
+}
 
 .contact-bottom-link {
     text-decoration: none;
@@ -343,13 +355,14 @@ p {
     cursor: pointer;
     justify-content: center;
     padding: 12px;
-    border-radius: 50%;
      
 }
 
 .photo-icon:hover {
-    background-color: #2196F3;
     fill:#FFFFFF
+}
+.our-team-sm-icon:hover {
+    background-color: #2196F3;
 }
 
 .our-team-sm-icon {
@@ -369,4 +382,3 @@ p {
     margin-left: 20px;
 }
 
-  
