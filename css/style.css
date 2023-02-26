@@ -23,8 +23,6 @@ button:hover {
     background-color: var(--brand-color);
 }  
 
-
-
  h1 {
     width: 696px;
     height: 120px;
@@ -128,7 +126,7 @@ p {
 
 .contact-top-link {
     display: flex;
-    margin-left: 10px;
+    margin-left: 5px;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -330,10 +328,45 @@ p {
     background-color: #F5F4FA;
     border-radius: 4px;
  }
-
+ 
+ .box {
+    margin: 100px 0px 70px 0px;
+ }
 .our-team-socials {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+.photo-icon {
+    fill: #AFB1B8;
+    cursor: pointer;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 50%;
+     
+}
+
+.photo-icon:hover {
+    background-color: #2196F3;
+    fill:#FFFFFF
+}
+
+.our-team-sm-icon {
+    border-radius: 50%;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.contact-top-mail {
+    display: flex;
+}
+
+.contact-top-phone {
+    display: flex;
+    margin-left: 20px;
+}
+
   
