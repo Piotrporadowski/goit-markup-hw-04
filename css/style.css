@@ -218,7 +218,7 @@ p {
     left: 0px;
     top: 80px;
     background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%), url("../images/photo1/slider.background.jpg");
-    
+    background-position: center;
     background-color: var(--slider-color);
 }
 
@@ -377,6 +377,7 @@ p {
  }
     
  .lorem-icon {
+    padding: 20px;
     background-color: #F5F4FA;
     border-radius: 4px;
  }
