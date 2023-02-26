@@ -288,6 +288,12 @@ p {
 .what-we-do {
     justify-content: center;
     text-align: center;
+    margin-bottom: 100px;
+}
+
+.our-clients {
+    justify-content: center;
+    text-align: center;
 }
 .what-we-do-photo {
     display: flex;
