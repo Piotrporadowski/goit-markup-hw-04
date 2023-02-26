@@ -208,17 +208,15 @@ p {
 }
 
 .slider {
-    max-width: 1600px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
     height: 600px;
-    left: 0px;
-    top: 80px;
     background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%), url("../images/photo1/slider.background.jpg");
     background-position: center;
+    background-size: cover;
     background-color: var(--slider-color);
 }
 
